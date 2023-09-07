@@ -4,10 +4,18 @@ package arrayList;
 		
 		private Object[] elements;
 		private int size;
-
+		private Object index;
 			public ArrayList() {
 				this.elements = new Object[10];
 				this.size = 0;
+			}
+			public Object indexOf(Object obj) {
+				for(int i = 0; i < this.size; i++) {
+					if (obj == elements[i]) {
+					 this.index = i - 1;
+				}
+				}
+				return index;
 			}
 			
 			public Object get(int index) {
