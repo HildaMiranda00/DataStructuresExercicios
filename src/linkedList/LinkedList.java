@@ -19,7 +19,7 @@ public class LinkedList implements List{
 			}
 			
 		}
-		throw new IllegalArgumentException("IndexOutOfBounds");
+		throw new IllegalArgumentException("Index out of bounds");
 	}
 	
 
