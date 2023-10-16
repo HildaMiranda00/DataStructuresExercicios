@@ -1,7 +1,6 @@
 package linkedList;
-import arrayList.List;
-import tetse.Node;
 
+import arrayList.List;
 public class LinkedList implements List{
 	private Node head;
 	private Node tail;

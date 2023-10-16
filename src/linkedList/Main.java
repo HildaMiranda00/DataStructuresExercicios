@@ -1,7 +1,5 @@
 package linkedList;
 
-import tetse.LinkedList;
-
 	public class Main {
 		public static void main(String[] args) {
 			LinkedList list = new LinkedList();
